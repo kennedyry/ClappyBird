@@ -12,7 +12,7 @@ void initializeSerial() {
   for (String portName : portsList) {
     println(portName);
   }
-  String portName = Serial.list()[3]; //You may need to change this 3
+  String portName = Serial.list()[0]; //You may need to change this
   myPort = new Serial(this, portName, 9600);
 }
 
