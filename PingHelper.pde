@@ -1,3 +1,5 @@
+//Following code was provided by Mitchell Griest for listening for audio input 
+//Contact: mitchellgriest@westminster.net
 import processing.serial.*;
 Serial myPort;
 
